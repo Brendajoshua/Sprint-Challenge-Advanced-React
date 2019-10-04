@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import './App.css';
 
-import PlayersList from './Components/playersList';
+import PlayersList from './Components/PlayersList';
 import NavBar from './Components/NavBar';
 
 class App extends React.Component {

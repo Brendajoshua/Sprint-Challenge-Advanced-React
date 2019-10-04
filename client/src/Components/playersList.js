@@ -1,5 +1,5 @@
 import React from 'react';
-import PlayerCard from './playerCard';
+import PlayerCard from './PlayerCard';
 
 const PlayersList = (props) => {
     const { players } = props;

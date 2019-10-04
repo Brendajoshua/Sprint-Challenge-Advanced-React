@@ -32,7 +32,7 @@ ComponentDidMount() : The component mounted and is usually used to make ajax /ax
 
 ComponentWillUnmount() : The component is leaving the DOM and should clean up any event listeners or timeout
 
-ComponentShouldUpdate() : Component recieved props and needs to determine if it should update or not
+ComponentWillUpdate() : Component recieved props and needs to determine if it should update or not
 
 - [ ] What is the purpose of a custom hook?
 
