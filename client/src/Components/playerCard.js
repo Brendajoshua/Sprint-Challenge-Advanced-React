@@ -8,7 +8,9 @@ const PlayerCard = (props) => {
             <Card.Content>
                 <Card.Header>{name}</Card.Header>
                 <Card.Meta>{country}</Card.Meta>
-                <Card.Description>Searches: {searches}</Card.Description>
+                <Card.Description>
+                    Searches: {searches}
+                </Card.Description>
             </Card.Content>
         </Card>
     )
