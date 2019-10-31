@@ -13,10 +13,10 @@ app.use(cors());
 
 const players = data.map((player, index) => ({ ...player, id: index }));
 
-app.use(express.static(__dirname + '/client/build'))
+app.use(express.static(__dirname + '/../client/build'))
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/client/build/index.html')
+  res.sendFile(__dirname + '/../client/build/index.html')
 });
 
 app.get('/api/players', (req, res) => {
